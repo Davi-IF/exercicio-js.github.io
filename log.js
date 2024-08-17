@@ -37,7 +37,7 @@ function Verifica() {
     let array = [];
     let soma = 0;
     
-        for (let i=inf; i<sup+1; i++){
+        for (let i=inf; i<=sup; i++){
           
             if(i % 2 == 0){
                 soma += i;
