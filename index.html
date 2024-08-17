@@ -3,18 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" type = "text/ss" href="style1.css"/>
-    <title> Pastelaria </title>
+    <link rel = "stylesheet" type = "text/css" href="style1.css"/>
+    <title> testesLógicos </title>
 </head>
 <body>
-    <P1 id="titulo"> PASTELOVE </P1>
+         <h1 class="titulo">testesLógicos</h1>
+         <div class="atividade">
+            <h2>Maior e Menor</h2>
+            <label for="q1n1">Primeiro número</label>
+            <input name="q1n1" type="number" placeholder="Digite um número" />
+            <label for="q1n2">Segundo número</label>
+            <input name="q1n2" type="number" placeholder="Digite um número" />
+            <label for="q1n3">Terceiro número</label>
+            <input name="q1n3" type="number" placeholder="Digite um número" />
+            <label for="q1n4">Quarto número</label>
+            <input name="q1n4" type="number" placeholder="Digite um número" />
+            <label for="q1n5">Quinto número</label>
+            <input name="q1n5" type="number" placeholder="Digite um número" />
+            <button type="button" onclick="maiorMenor()">Calcular</button>
+            <p id="res1"></p>
+          </div>
 
+          <div class="atividade">
+            <h2>Vogal</h2>
+            <label for="d1n1">Caractere:  </label>
+            <input name="d1n1" type="text" placeholder="Digite um caractere" />
+            <button type="button" onclick="Verifica()">Submit</button>
+            <p id="res2"></p>
+          </div>
 
+          <div class="atividade">
+            <h2>Intervalos</h2>
+            <label for="e1n1">numero superior </label>
+            <input name="e1n1" type="number" placeholder="Digite um valor" />
+            <label for="e1n2">numero inferior </label>
+            <input name="e1n2" type="number" placeholder="Digite um valor" />
+            <button type="button" onclick="limites()">Submit</button>
+            <p id="res33"></p>
+          </div>
 
+          <div class="atividade"> 
+            <h2> Ordem </h2>
+            <label for = "j1j1">valor a </label>
+            <input name="j1j1"  type="number" placeholder="digite o valor a"/>
+            <label for = "j1j2">valor b </label>
+            <input name="j1j2"  type="number" placeholder="digite o valor b"/>
+            <label for = "j1j3">valor c </label>
+            <input name="j1j3"  type="number" placeholder="digite o valor c"/>
+            <button type="button" onclick="ordem()"> Submit </button>
+            <p id="res4"> </p>
+          </div>
 
+          
+          <div class="atividade"> 
+            <h2> Negativo ou positivo </h2>
+            <label for = "k1k1">valor: </label>
+            <input name="k1k1"  type="number" placeholder="digite o valor:"/>
+            <button type="button" onclick="Positivo_Negativo()">Submit</button>
+            <p id="res5"></p>
+          </div>
 
+          <div class="atividade"> 
+            <h2> PAR_IMPAR </h2>
+            <label for = "q1q1">valor: </label>
+            <input name="q1q1"  type="number" placeholder="digite o valor:"/>
+            <button type="button" onclick="PAR_IMPAR()">Submit</button>
+            <p id="res6"></p>
+          </div>
+          
 
-
-    
+    <script src="log.js"> </script>
 </body>
 </html>
